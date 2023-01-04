@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web page</title>
+    <style>
+        body{
+            transition: all .8s;
+        }
+        div{
+            display: flex;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            display: block;
+            border: none;
+            padding: 12px 24px;
+            outline: none;
+            background-color: brown;
+            color: azure;
+            border-radius: 4px;
+            font-size: 16pt;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: pointer;
+            transition: all .6s;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+            font-weight: 600;
+        }
+        /* button:hover, button:focus, button:active{
+            background-color: rgb(135, 33, 33);
+        } */
+        /* button:active{
+            transform: translate(2px, 4px);
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        <button type="button">Click me!</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
